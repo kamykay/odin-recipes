@@ -1,8 +1,35 @@
-*{
-    color: black;
-}
-
-.img{
+.recipe-img{
     height: auto;
     width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.recipe-title
+{
+    text-align: center;
+    font-size: 35px;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.description-child{
+    font-size: 18px;
+}
+
+.ingredients li{
+    font-size: 18px;
+}
+
+.steps li{
+    font-size: 18px;
+}
+
+.button{
+    margin: auto;
+    display: block;
+    background-color: white;
+    font-size: 25px;
 }
